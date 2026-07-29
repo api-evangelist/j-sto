@@ -1,7 +1,24 @@
 aid: j-sto
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/j-sto.png
 name: Jüsto
-description: Jüsto is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Jüsto is a Mexican online-only supermarket founded in 2019 by Ricardo Weder, headquartered
+  in Mexico City. It operates a direct-to-consumer grocery e-commerce and delivery model with no physical
+  stores, sourcing produce and pantry goods directly from farmers, producers, and brands and fulfilling
+  orders from micro-fulfillment dark stores. The company sells its catalog through web and mobile apps
+  and has raised venture funding from investors including General Atlantic, SoftBank, Foundation Capital,
+  and 500 Global. Jüsto has no public developer program or documented API surface; this profile is
+  maintained in the API Evangelist network as a company record.
 url: https://raw.githubusercontent.com/api-evangelist/j-sto/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Grocery
+- E-commerce
+- Retail
+- Food Delivery
+- Consumer
+- Mexico
+- Latin America
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/j-sto-domain-security.yml
 - type: Website
   url: https://justo.mx
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
