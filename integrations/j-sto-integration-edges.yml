@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/j-sto/integrations
+- https://n8n.io/integrations/j-sto/
+- https://composio.dev/toolkits/j-sto
+- https://monid.ai/tools/j-sto
+checked:
+- https://composio.dev/toolkits/j-sto
+- https://monid.ai/tools/j-sto
+- https://n8n.io/integrations/j-sto/
+- https://zapier.com/apps/j-sto/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
